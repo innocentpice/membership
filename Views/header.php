@@ -1,11 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="th">
     <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <title><?php if(isset($this->PageTitle)){echo $this->PageTitle;}else{echo 'MemberShips';}?></title>
-        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="กลุ่มนักธุรกิจใหม่จังหวัดระยอง, หอการค้าจ">
+        <meta name="keywords" content="กลุ่มนักธุรกิจใหม่จังหวัดระยอง, หอการค้าจังหวัดระยอง">
+        <title><?php if(isset($this->PageTitle)){echo $this->PageTitle;}else{echo 'กลุ่มนักธุรกิจใหม่จังหวัดระยอง';}?></title>
+        <link rel="canonical" href="<?=URL_Path?>/">
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" type="text/css">

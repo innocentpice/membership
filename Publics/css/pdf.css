@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'THSarabun';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/THSarabun.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'THSarabun';
+    font-style: normal;
+    font-weight: bold;
+    src: url('./fonts/THSarabun_Bold.ttf') format('truetype');
+}
+
+body {
+    font-family: "THSarabun" !important;
+    font-size: 1.8rem !important;
+    color: black !important;
+}
+div {
+    padding: 2px !important;
+    margin: 0px !important;
+}

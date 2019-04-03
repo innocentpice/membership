@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>YEC RAYONG</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  <script src="https://use.fontawesome.com/dbe1b49800.js"></script>
+  <link rel="stylesheet" href="./public/css/custom.css">
+  <link rel="stylesheet" href="./public/css/app.css">
+</head>
+
+<body>
+  
+  <ul id="slideNav" class="side-nav fixed">
+    <li class="hide-on-large-only waves-effect" style="width:100%;height:56px;line-height:56px;"><a href="#" style="height:56px;line-height:56px;" data-activates="slideNav" class="sNavClose"><i class="material-icons" style="height:56px;line-height:56px;">menu</i>MENU</a></li>
+    <li class="hide-on-med-and-down" style="margin-top:64px;display:hidden;"></li>
+    <li>
+      <div class="userView">
+        <div class="background">
+          <img src="http://demo.geekslabs.com/materialize/v2.3/layout03/images/user-profile-bg.jpg">
+        </div>
+        <a href="#!user"><img class="circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVosR-YEGVRmbE7dGkSY57Dn60rBFRI32Zhwei-ZHQQ-wj8sGI" style="border:0.1em white solid;"></a>
+        <a href="#!name"><span class="white-text name">Administrator</span></a>
+        <a href="#!email"><span class="white-text email">@บริษัทมีเงินมีทอง จำกัด</span></a>
+      </div>
+    </li>
+    <li><a class="waves-effect" href="/userlist.html"><i class="material-icons">group</i>จัดการสมาชิก</a></li>
+    <li><a class="waves-effect" href="/adminlist.html"><i class="material-icons">person</i>จัดการผู้ดูแลระบบ</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="waves-effect" href="/app.html"><i class="material-icons">face</i>ข้อมูลส่วนตัว</a></li>
+    <li><a class="waves-effect" href="/business.html"><i class="material-icons">work</i>กิจการของฉัน</a></li>
+    <li><a class="waves-effect" href="/status.html"><i class="material-icons">verified_user</i>สถานะสมาชิก</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="waves-effect" href="/changepass.html"><i class="material-icons">lock_outline</i>เปลี่ยนรหัสผ่าน</a></li>
+    <li><a class="waves-effect" href="/"><i class="fa fa-sign-out" aria-hidden="true" style="font-size:1.6rem;padding-left:4px;"></i>ออกจากระบบ</a></li>
+  </ul>
+  
+  <div id="navApp" class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <div class="row">
+          <a href="#" id="sNavShow" data-activates="slideNav" class="button-collapse col"><i class="material-icons">menu</i></a>
+          <div class="col s8 m4 l2 right">
+            <div class="input-field">
+              <i class="material-icons prefix">search</i>
+              <input type="text" id="autocomplete-input" class="autocomplete">
+              <label for="autocomplete-input">Search</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  <main>
+    
+    <div class="z-depth-1" style="background-image: url('http://demo.geekslabs.com/materialize/v2.3/layout03/images/user-profile-bg.jpg');background-size:auto;">
+      <header style="padding: 1em; 0em;">
+        <h1 class="center-align">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVosR-YEGVRmbE7dGkSY57Dn60rBFRI32Zhwei-ZHQQ-wj8sGI" alt="profile-img" class="circle responsive-img" style="width:3em;height:3em;border:0.05em white solid;">
+        </h1>
+        <h5 class="white-text center-align">
+          <span>Administrator</span><br />
+          <small>@บริษัทมีเงินมีทอง จำกัด</small>
+        </h5>
+        <div class="center-align"><small class="white-text amber" style="padding:0.5em;border-radius:1em;">สมาชิกกลุ่มนักธุรกิจรุ่นใหม่</small></div>
+      </header>
+    </div>
+    
+    <div class="container" style="padding: 2em 1em;">
+      <div class="card-panel">
+      <div class="row">
+        <h5 class="left">
+          <i class="material-icons left">face</i>
+          ข้อมูลสมาชิก
+        </h5>
+      </div>
+      <div class="row">
+        <div class="divider"></div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <span class="black-text">ชื่อ : </span>
+          <span class="light-blue-text text-darken-2 flow-text">สุดหล่อ พันลี้</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <span class="black-text">ชื่อเล่น : </span>
+          <span class="light-blue-text text-darken-2 flow-text">โอโจ้</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <span class="black-text">วัน/เดือน/ปีเกิด : </span>
+          <span class="light-blue-text text-darken-2 flow-text">9 September 1995</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <span class="black-text">มือถือ : </span>
+          <span class="light-blue-text text-darken-2 flow-text">0812456789</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <span class="black-text">Email : </span>
+          <span class="light-blue-text text-darken-2 flow-text">admin@yecrayong.org</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <span class="black-text">Facebook : </span>
+          <span class="light-blue-text text-darken-2 flow-text"><a href="#">www.facebook.com/adminyec</a></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <span class="black-text">Line ID : </span>
+          <span class="light-blue-text text-darken-2 flow-text">@yecrayong</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <a class="waves-effect waves-light btn btn-block green accent-4"><i class="material-icons left">build</i>แก้ไขข้อมูล</a>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+  </main>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <script src="./public/js/custom.js"></script>
+  <script> document.write('<script src="https://' + (location.host || 'localhost').split(':')[0] + ':8081/livereload.js?snipver=1"></' + 'script>') </script>
+  <script>
+    $(document).ready(()=>{
+      $('input#autocomplete-input').autocomplete({
+        data: {
+          "Apple": null,
+          "Microsoft": null,
+          "Google": 'http://placehold.it/250x250'
+        },
+        limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
+        onAutocomplete: function(val) {
+          // Callback function when value is autcompleted.
+        },
+        minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
+      });
+    });
+  </script>
+</body>
+
+</html>

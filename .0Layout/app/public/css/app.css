@@ -1,0 +1,22 @@
+main {
+  padding-left: 300px;
+}
+#slideNav {
+  z-index: 998;
+}
+#navApp {
+  z-index: 999;
+}
+
+
+@media only screen and (max-width: 992px) {
+  #slideNav {
+    z-index: 999;
+  }
+  #navApp {
+    z-index: 998;
+  }
+  main {
+    padding-left: 0;
+  }
+}

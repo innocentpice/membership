@@ -1,0 +1,51 @@
+a {
+  color: color: #777;
+}
+pd1 {
+  padding: 1em;
+}
+a:hover {
+  color: #222;
+}
+
+.picker__weekday-display {
+  display: none;
+}
+
+.picker__frame {
+  margin-top: 1em;
+}
+
+.line-on-side {
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  margin: 1em 0em;
+  line-height: 2em;
+}
+.line-on-side span {
+  display: inline-block;
+  position: relative;  
+  color: #4db6ac;
+}
+.line-on-side span:before,
+.line-on-side span:after {
+  content: "";
+  position: absolute;
+  height: 50%;
+  border-bottom: 3px solid #4db6ac;
+  top: 0;
+  width: 600px;
+}
+.line-on-side span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.line-on-side span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.btn-block {
+  width: 100%;
+}

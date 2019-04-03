@@ -8,7 +8,7 @@ class Database extends PDO {
             $DBPass = Configs::$DBPass;
         try{
             parent::__construct("mysql:host=$DBHost;dbname=$DBName",$DBUser,$DBPass);
-            parent::exec("SET CHARACTER SET utf8");
+            parent::exec("SET NAMES utf8");
             parent::exec("SET @@global.time_zone = '+00:00'");
             parent::exec("SET GLOBAL time_zone = '+7:00'");
             parent::exec("SET GLOBAL time_zone = 'Asia/Bangkok'");
